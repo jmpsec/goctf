@@ -1,0 +1,53 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE metadata
+.vscode
+
+# Vagrant metadata
+.vagrant
+
+# Logs
+*.log
+
+# Golang
+vendor
+glide.lock
+
+# Directories to ignore
+bin
+build
+vendor
+
+# Plugins
+*.so
+
+# Deployment related files
+goctf.sh
+
+# Temp directory for tests
+tmp
+
+# Various packages
+*.deb
+*.pkg
+*.rpm
+
+# Certificates
+goctf.csr
+goctf.pem
+goctf.key
+goctf.crt
+dhparam.pem
+
+# Docker temporary folders and files
+docker/certs
+docker/config
+docker.flags
+
+# Random notes for debug
+notes.txt
